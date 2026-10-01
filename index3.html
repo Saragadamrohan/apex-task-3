@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Quiz</title>
+<link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Web Development Quiz</h1>
+
+<div class="question active">
+<h2>Question 1</h2>
+<p>What does HTML stand for?</p>
+
+<input type="radio" name="q1" value="1"> Hyper Text Markup Language<br>
+<input type="radio" name="q1" value="0"> High Text Machine Language<br>
+<input type="radio" name="q1" value="0"> Hyper Transfer Markup Language<br><br>
+
+<button onclick="nextQuestion()">Next</button>
+
+</div>
+
+<div class="question">
+
+<h2>Question 2</h2>
+
+<p>Which language is used for styling web pages?</p>
+
+<input type="radio" name="q2" value="0"> HTML<br>
+<input type="radio" name="q2" value="1"> CSS<br>
+<input type="radio" name="q2" value="0"> Java<br><br>
+
+<button onclick="nextQuestion()">Next</button>
+
+</div>
+
+<div class="question">
+
+<h2>Question 3</h2>
+
+<p>Which language makes websites interactive?</p>
+
+<input type="radio" name="q3" value="0"> CSS<br>
+<input type="radio" name="q3" value="1"> JavaScript<br>
+<input type="radio" name="q3" value="0"> SQL<br><br>
+
+<button onclick="nextQuestion()">Next</button>
+
+</div>
+
+<div class="question">
+
+<h2>Question 4</h2>
+
+<p>Which tag inserts an image?</p>
+
+<input type="radio" name="q4" value="1"> img<br>
+<input type="radio" name="q4" value="0"> image<br>
+<input type="radio" name="q4" value="0"> picture<br><br>
+
+<button onclick="nextQuestion()">Next</button>
+
+</div>
+
+<div class="question">
+
+<h2>Question 5</h2>
+
+<p>Which CSS property changes text color?</p>
+
+<input type="radio" name="q5" value="0"> font-size<br>
+<input type="radio" name="q5" value="1"> color<br>
+<input type="radio" name="q5" value="0"> background-color<br><br>
+
+<button onclick="submitQuiz()">Submit Quiz</button>
+
+</div>
+
+<div id="result"></div>
+
+<div id="jokeBox" style="display:none;">
+<h2>Programming Joke</h2>
+
+<p>
+Why do programmers prefer dark mode?<br><br>
+Because light attracts bugs!
+</p>
+
+</div>
+
+</div>
+
+<script src="js3.js"></script>
+
+</body>
+</html>
